@@ -91,7 +91,7 @@ def velocity_field(x, y, wind_speed, wind_direction, current_speed=2):
 
 def oil_spill_boundary(t, state, wind_speed, wind_direction, current_speed):
     """
-
+    Gets the velocity vectors of all areas within the oil spill.
     :param t: Time in seconds
     :param state: the current x and y position of a point on the oil spill boundary
     :param wind_speed: wind speed in m/s
